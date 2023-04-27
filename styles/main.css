@@ -1,0 +1,23 @@
+body {
+  background: #f5f5dc;
+  text-align: left;
+}
+
+h1 {
+  font-size: 30pt;
+  text-align: center;
+  margin-top: 15pt;
+  margin-bottom: 15pt;
+}
+
+h4 {
+  font-size: 15pt;
+  text-align: center;
+  margin: -25pt;
+  margin-bottom: 15pt;
+}
+
+p {
+  font-size: 20pt;
+
+}
