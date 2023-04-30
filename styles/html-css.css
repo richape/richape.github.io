@@ -23,8 +23,38 @@ h2 {
   margin-bottom: 15pt;
 }
 
+.css-properties {
+  width: 25%;
+  height: 25%;
+  border: 2px solid black;
+}
+
+.margin-image {
+  width: auto;
+  height: auto;
+  border: 2px solid black;
+}
+
+.padding-image {
+  width: auto;
+  height: auto;
+  border: 2px solid black;
+}
+
+.border-image {
+  width: auto;
+  height: auto;
+  border: 2px solid black;
+}
+
+.image {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
 p {
-  font-size: 20pt;
+  font-size: 15pt;
 }
 
 .nav__img {
