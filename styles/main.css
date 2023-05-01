@@ -75,15 +75,25 @@ h1 {
   text-align: center;
   margin-top: 50px;
   margin-bottom: auto;
+  padding-top: 50px;
+  padding-bottom: 15px;
 }
 
 h4 {
   font-size: 15pt;
   text-align: center;
-  margin: auto;
-  margin-bottom: auto;
+  margin: 10px;
+  margin-bottom: 10px;
+  padding: auto ;
+}
+
+.who-am-I {
+  padding: 50px;
+  text-align: left;
 }
 
 p {
   font-size: 15pt;
+  margin-bottom: .5em;
+  margin-top: .5em;
 }
