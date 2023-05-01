@@ -30,7 +30,7 @@ header .navbar ul {
 
 header .navbar ul li {
   position: relative;
-  float: left;
+  float: none;
   display: inline-block;
   padding-left: 20px;
   padding-right: 20px;
