@@ -75,6 +75,15 @@ header .navbar ul li:hover > ul {
   display: list-item;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.image {
+  max-width: 50%;
+}
+
 h1 {
   font-size: 30pt;
   text-align: center;
