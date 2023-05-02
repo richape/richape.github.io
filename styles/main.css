@@ -19,11 +19,17 @@ header {
   padding: 20px 7%;
   display: flex;
   align-items: center;
-  justify-content: space-between;
   z-index: 1000;
 }
 
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  width: 100%;
+}
+
 header .navbar ul {
+  padding: 10px;
   text-align: center;
   list-style: none;
   display: inline-block;
@@ -70,18 +76,16 @@ header .navbar ul li ul li ul {
   float: left;
 }
 
+header .navbar ul li ul li ul a {
+  margin: auto;
+  left: 200px;
+  top: 0;
+  float: left;
+}
+
 header .navbar ul li:focus-within > ul,
 header .navbar ul li:hover > ul {
   display: list-item;
-}
-
-.container {
-  display: flex;
-  justify-content: center;
-}
-
-.image {
-  max-width: 50%;
 }
 
 h1 {
@@ -103,7 +107,15 @@ h4 {
 
 .who-am-I {
   padding: 50px;
-  text-align: left;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: flex-start;
+}
+
+.who-am-I .profile-image {
+  max-width: 40%;
 }
 
 p {
