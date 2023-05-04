@@ -32,7 +32,7 @@ header .navbar ul {
   padding: 10px;
   text-align: center;
   list-style: none;
-  display: inline-block;
+  flex-direction: row;
 }
 
 header .navbar ul li {
@@ -43,9 +43,34 @@ header .navbar ul li {
   padding-right: 20px;
 }
 
+/* main nav, profile, foundations, my journey */
 header .navbar ul li a {
   text-decoration: none;
   color: #333;
+}
+
+header .navbar ul li ul {
+  position: absolute;
+  width: 200px;
+  background: #bbbbbb;
+  display: none;
+}
+
+/* 2nd nav, technology & core */
+header .navbar ul li ul li {
+  width: 100%;
+  align-items: center;
+  border-top: 2px solid rgba(0,0,0,.1);
+}
+
+header .navbar ul li ul li ul {
+  left: 185px;
+  float: left;
+}
+
+header .navbar ul li ul li ul a {
+  left: 200px;
+  float: left;
 }
 
 header .navbar ul li a:hover {
@@ -55,32 +80,6 @@ header .navbar ul li a:hover {
 header .navbar ul li:hover {
   background: #333;
   color: #fff;
-}
-
-header .navbar ul li ul {
-  position: absolute;
-  left: 0;
-  width: 200px;
-  background: #bbbbbb;
-  display: none;
-}
-
-header .navbar ul li ul li {
-  width: 100%;
-  border-top: 1px solid rgba(0,0,0,.1);
-}
-
-header .navbar ul li ul li ul {
-  left: 200px;
-  top: 0;
-  float: left;
-}
-
-header .navbar ul li ul li ul a {
-  margin: auto;
-  left: 200px;
-  top: 0;
-  float: left;
 }
 
 header .navbar ul li:focus-within > ul,
