@@ -72,8 +72,15 @@ header .navbar ul li ul li {
   left: 185px;
   float: left;
   top: 0;
-
 }
+
+.menu__third {
+  position: absolute;
+  left: 185px;
+  float: left;
+  top: 0;
+}
+
 
 header .navbar ul li ul li ul a {
   left: 200px;
