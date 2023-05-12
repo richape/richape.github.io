@@ -241,6 +241,10 @@ p {
   
 /* media query for small devices */
 @media only screen and (max-width: 767px) {
+  h1 {
+    padding-top: 25%;
+  }
+
   .navbar {
     flex-wrap: wrap;
   }
