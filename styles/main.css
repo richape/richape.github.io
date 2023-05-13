@@ -32,6 +32,7 @@ header {
   margin: 0 auto;
   max-width: 1200px;
   width: 100%;
+  text-align: center;
 }
 
 .navbar {
@@ -277,4 +278,17 @@ p {
     max-height: none;
     overflow: hidden;
   }
+}
+
+.icon {
+  display: inline-block;
+  font-size: 30px;
+  color: #070606;
+  text-decoration: none;
+  transition: color 0.2s;
+  margin: 0 10px;
+}
+
+.icon:hover {
+  color: #585555;
 }
