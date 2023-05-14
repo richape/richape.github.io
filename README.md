@@ -1,8 +1,6 @@
 # richape.github.io
 # Welcome to My blog
 
----
-
 ## **Header**
 
 
