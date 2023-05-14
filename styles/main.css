@@ -11,10 +11,20 @@ body {
   min-height: 100vh;
 }
 
-.text {
-  line-height: 1;
-  font-size: 18px; 
-  font-family: Arial, Helvetica, sans-serif;
+.column {
+  flex-direction: column;
+  border: 1px solid #666;
+  margin: 2px;
+  padding: 0px 50px;
+  background-color: #f2f2c5;
+}
+
+.columns  {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 5px 0;
+  padding: 10px 50px;
 }
 
 header {
@@ -118,12 +128,18 @@ h4 {
 }
 
 .who-am-I {
-  padding: 50px;
+  padding: 0px 50px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   align-content: center;
   justify-content: flex-start;
+}
+
+.profile-image  {
+  padding: 0;
+  margin: 5px;
+  align-content: center;
 }
 
 .who-am-I .profile-image {
