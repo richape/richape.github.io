@@ -2,7 +2,7 @@
 # Welcome to My blog
 
 
-On my blog you can follow my journey as a student at Dev Academy on the part-time programme whilst working as a Human Skills facilitator Full-time.
+On my blog [My blog page](https://richape.github.io/index.html) you can follow my journey as a student at Dev Academy on the part-time programme whilst working as a Human Skills facilitator Full-time.
 I have added links to my posts and plan to update it throughout this endeavour of becoming a Web Developer to benefit my role here in the Tāmaki Makaurau campus.
 ## **Header**
 
