@@ -20,11 +20,14 @@ When you click on the __Tūāpapa__ - foundations dropdown menu you will have tw
   - Link - coming soon,
   - Link - coming soon,
 
+The tab **Taku Haerenga** - [my journey](https://richape.github.io/Blog/my-journey-Sprint-1.html) is a weekly journal of my
+journey as a student at [Dev Academy Aotearoa](https://devacademy.co.nz/). 
+
 ## **Body**
 
 
 On the body of my blog page there is a heading __Ko wai koe?__ or who am I?
-Followed by ![a photo of myself](./Photos/profile%20button.JPG) with a brief introduction in Te Reo Māori.
+Followed by a profile photo of myself with a brief introduction in Te Reo Māori. ![a photo of myself](./Photos/profile%20button.JPG)
 
 Under __Ko wai koe?__ I have added two columns with a little kōrero about
 who I am and a small snippet of my journey at Dev Academy Aotearoa before becoming
