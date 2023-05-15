@@ -4,15 +4,13 @@
 ## **Header**
 
 
-On my you will find the header of my page with two dropdown tabs,
+On my blog you will find the header of my page with two dropdown tabs,
 1. __Tūāpapa__ - foundations,
 2. __Taku haerenga__ - my journey,
 
 When you click on the __Tūāpapa__ - foundations dropdown menu you will have two more options that you can click on to navigate to one of the pages I have worked on during Foundations. These two dropdown menus are,
 1. __Hangarau__ - technology,
 2. __Pokapū__ - core,
-
-___
 
 ## **Body**
 
@@ -28,9 +26,10 @@ In the next column I shared a little bit about why I want to complete
 this study as it will add to my current role as a Human Skills facilitator 
 for Dev Academy.
 
-___
-
 ## **Footer**
 
 Currently it is not a footer but at the bottom of my page I have added
 three buttons to __Linkedin, GitHub__ & __my work email__
+
+*My blog is a work in progress and I will be making changes throughout my
+journey*
