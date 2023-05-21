@@ -137,9 +137,10 @@ h4 {
 }
 
 .profile-image  {
-  padding: 0;
-  margin: 5px;
-  align-content: center;
+  display: block;
+  margin: 0 auto;
+  max-width: 50%;
+  height: auto;
 }
 
 .who-am-I .profile-image {
@@ -255,6 +256,13 @@ p {
     max-height: 200px;
     overflow: auto;
   }
+
+  p {
+    font-size: 12pt;
+    margin-bottom: .5em;
+    margin-top: .5em;
+    text-align: center;
+  }
 } 
   
 /* media query for small devices */
@@ -294,6 +302,13 @@ p {
     display: block;
     max-height: none;
     overflow: hidden;
+  }
+
+  p {
+    font-size: 10pt;
+    margin-bottom: .5em;
+    margin-top: .5em;
+    text-align: center;
   }
 }
 

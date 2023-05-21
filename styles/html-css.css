@@ -56,6 +56,11 @@ main {
   justify-content: center;
 }
 
+.responsive-image {
+  max-width: 100%;
+  height: auto;
+}
+
 .columns  {
   display: flex;
   flex-flow: row wrap;
@@ -89,9 +94,9 @@ main {
   margin: 0 0 5px 0;
   }
 
-  .image {
-    flex-basis: 60%;
-    width: 60%;
+  .responsive-image {
+    max-width: 100%;
+    height: auto;
   }
 }
 
@@ -101,7 +106,9 @@ main {
   margin: 0 0 5px 0;
   }
 
-  .image {
-    flex-basis: 40%;
+  .responsive-image {
+    display: block;
+    max-width: 50%;
+    height: auto;
   }
 }
