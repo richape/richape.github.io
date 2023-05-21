@@ -30,12 +30,13 @@ header  {
 .hr-with-padding {
   padding: 0;
   margin: 0;
-  border-top: 5px solid black;
+  border-top: 2.5px solid black;
 }
 
 p {
   padding: 0;
   margin-bottom: .5em;
+  font-size: 18px;
 }
 
 .wrapper {
@@ -108,7 +109,7 @@ main {
 
   .responsive-image {
     display: block;
-    max-width: 80%;
+    max-width: 100%;
     height: auto;
   }
 }
