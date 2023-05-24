@@ -50,6 +50,10 @@ main {
   font-size: 21px;
 }
 
+q {
+  font-style: italic;
+}
+
 .image {
   display: flex;
   justify-content: center;
