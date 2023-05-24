@@ -66,7 +66,7 @@ q {
 
 .columns  {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column wrap;
   justify-content: center;
   margin: 5px 0;
 }
