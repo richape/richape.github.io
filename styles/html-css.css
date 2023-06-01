@@ -6,15 +6,43 @@
 body {
   margin: 0;
   padding: 0;
-  background: #f5f5dc;
+}
+
+#waterfall {
+  background-image: url('../Photos/Final_Valley1.jpg');
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 header  {
   padding: 0; margin: 0;
 }
 
+h1 {
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  -webkit-text-stroke: 1px black;
+  text-stroke: 1px black;
+}
+
 h2 {
   text-align: center;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  -webkit-text-stroke: 1px black;
+  text-stroke: 1px black;
 }
 
 .nav__logo {
@@ -33,7 +61,6 @@ h2 {
 
 p {
   padding: 0;
-  margin-bottom: .5em;
   font-size: 20px;
 }
 
@@ -78,7 +105,7 @@ q {
   margin: 2px;
   padding: 10px;
   transition: 0.3s;
-  background: #f4f4b3;
+  background-color: rgba(244, 244, 179, 0.5);
 }
 
 @media only screen and (min-width: 992px) {
