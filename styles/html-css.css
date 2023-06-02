@@ -122,7 +122,7 @@ q {
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .columns .column {
   flex-basis: 100%;
-  margin: 0 0 5px 0;
+  margin: 0;
   }
 
   .responsive-image {
@@ -134,7 +134,7 @@ q {
 @media only screen and (max-width: 767px) {
   .columns .column {
   flex-basis: 100%;
-  margin: 0 0 5px 0;
+  margin: 0;
   }
 
   .responsive-image {
