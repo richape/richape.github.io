@@ -109,6 +109,12 @@ footer {
   padding: 0;
   margin: 0;
   text-align: center;
+  overflow: hidden;
+}
+
+.nav_gif img {
+  width: 60%;
+  height: auto;
 }
 
 
