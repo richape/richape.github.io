@@ -83,13 +83,6 @@ q {
   height: auto;
 }
 
-.columns  {
-  display: flex;
-  flex-flow: column wrap;
-  justify-content: center;
-  margin: 5px 0;
-}
-
 .column {
   flex: 1;
   border: 1px solid #666;
@@ -98,6 +91,13 @@ q {
   padding: 10px;
   transition: 0.3s;
   background-color: rgba(244, 244, 179, 0.5);
+}
+
+.columns  {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  margin: 5px 0;
 }
 
 @media only screen and (min-width: 992px) {
