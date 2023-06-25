@@ -100,6 +100,19 @@ q {
   margin: 5px 0;
 }
 
+table, tr, td {
+  border: 1px solid black;
+  border-collapse: collapse ;
+}
+
+table tr td:first-child {
+  text-align: center;
+}
+
+#updated-learning-plan  {
+  text-align: center;
+}
+
 footer {
   margin: 0;
   padding: 0;
